@@ -7,13 +7,15 @@
 
 /* CUSTOM FONT */
 
+
 @font-face {
   font-family: 'Gianna';
-  src: url('fonts/Gianna.ttf') format('truetype');
+  src: url('./Gianna.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+
 
 
 /* COLOR PALETTE */
