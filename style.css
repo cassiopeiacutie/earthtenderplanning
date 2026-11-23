@@ -96,7 +96,7 @@ figcaption{font-size:.95rem;color:var(--muted);font-style:italic;margin-top:12px
 /* services */
 .head{padding:50px 0 10px}
 .services{width:100%;border-collapse:separate;border-spacing:0 10px;margin-top:10px}
-.services th{font-family:var(--ui);text-align:left;font-weight:500;font-size:1.05rem;color:var(--muted);padding:0 24px 4px}
+.services th{font-family:var(--ui);text-align:left;font-weight:700;font-size:1.25rem;color:var(--muted);padding:0 24px 4px}
 .services td{background:var(--paper);padding:20px 24px;vertical-align:top}
 .services td:first-child{border-radius:14px 0 0 14px;width:36%;font-family:var(--head);font-weight:700;font-size:1.1rem;line-height:1.35}
 .services td:last-child{border-radius:0 14px 14px 0;color:var(--muted)}
