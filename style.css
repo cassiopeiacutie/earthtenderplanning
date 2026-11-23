@@ -162,3 +162,23 @@ a:focus-visible{outline:3px solid var(--a1);outline-offset:3px}
   .steps.two{grid-template-columns:1fr}
   .rates{padding:26px 24px}
 }
+.contact-grid ul {
+  list-style: none;
+  margin: 8px 0 22px 0;
+  padding: 0;
+}
+
+.contact-grid li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 8px;
+}
+
+.contact-grid li::before {
+  content: "↝";
+  position: absolute;
+  left: 0;
+  color: var(--a1);
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
