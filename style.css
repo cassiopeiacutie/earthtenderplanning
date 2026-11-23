@@ -6,9 +6,11 @@
 :root{
   --bg:#F6EEDC; --paper:#FBF6E9; --soft:#EBDDC0; --ink:#4A3A2E; --muted:#6E5F4D;
   --a1:#A64D32; --a2:#E0A93B; --sage:#5A6B45;
-  --head:'DM Sans','Helvetica Neue',Arial,sans-serif;
-  --body:'Newsreader',Georgia,serif; --ui:'Alegreya Sans',Helvetica,Arial,sans-serif;
-  --edge:max(7vw,calc((100vw - 1060px)/2));
+--head:'Newsreader',Georgia,serif;
+--body:'DM Sans','Helvetica Neue',Arial,sans-serif;
+--ui:'Alegreya Sans',Helvetica,Arial,sans-serif;
+--edge:max(7vw,calc((100vw - 1060px)/2));
+
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
