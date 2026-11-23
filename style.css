@@ -148,3 +148,17 @@ footer .copy{width:100%;color:#E6DFC8;margin:0}
 }
 a:focus-visible{outline:3px solid var(--a1);outline-offset:3px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* inner pages */
+.pad{padding:60px 0}
+.head h1{margin-bottom:14px}
+.head .lead{margin-bottom:0}
+.steps.two{grid-template-columns:repeat(2,1fr)}
+.rates{background:var(--paper);border-left:5px solid var(--a1);padding:34px 38px;margin-top:30px}
+.rates .price{margin:0 0 8px}
+.rates p:last-child{margin-bottom:0}
+@media(max-width:820px){
+  .pad{padding:40px 0}
+  .steps.two{grid-template-columns:1fr}
+  .rates{padding:26px 24px}
+}
